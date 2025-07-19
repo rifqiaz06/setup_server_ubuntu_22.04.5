@@ -75,25 +75,3 @@ Cek:
 ```
 http://192.168.x.x:80
 ```
-
-## 🛡️ Tips Keamanan Tambahan
-| Fitur         | Penjelasan |
-|---------------|------------|
-| 🔐 SSH Key    | Lebih aman dari password login. Kombinasikan dengan `ssh-copy-id`. |
-| 🚫 Fail2Ban   | Untuk otomatis blokir IP brute force. |
-| 🕓 Cron Update| Auto update security patch via `unattended-upgrades`. |
-| 📜 Log Review | Cek login log: `sudo journalctl -u ssh` atau `cat /var/log/auth.log` |
-
-## 📘 Dokumentasi Ringkasan
-| Tanggal     | Task                       | Status   | Catatan |
-|-------------|----------------------------|----------|---------|
-| 2025-07-04  | Setup user & SSH port      | ✅ Selesai | Port SSH diubah ke 2222 |
-| 2025-07-04  | Install nginx              | ✅ Selesai | Nginx aktif & running |
-| 2025-07-04  | Konfigurasi UFW            | ✅ Selesai | Port 80 & 2222 dibuka |
-
-## 🔁 Untuk Next Step (Backlog)
-- [ ] Konfigurasi SSH Key Login
-- [ ] Install Docker + Docker Compose
-- [ ] Tambah Fail2Ban
-- [ ] Setup domain + SSL (optional)
-- [ ] Install monitoring (Prometheus + Grafana)
