@@ -54,7 +54,7 @@ sudo systemctl restart sshd
 ```
 Tes koneksi:
 ```bash
-ssh rifqi@192.168.x.x -p 2222
+ssh rifqi@172.30.116.200 -p 2222
 ```
 
 ### 🔹 4. Konfigurasi Firewall UFW
@@ -73,7 +73,7 @@ sudo systemctl status nginx
 ```
 Cek:
 ```
-http://192.168.x.x:80
+http://172.30.116.200:80
 ```
 
 ### 🔹 6. Konfigurasi SSH Key
