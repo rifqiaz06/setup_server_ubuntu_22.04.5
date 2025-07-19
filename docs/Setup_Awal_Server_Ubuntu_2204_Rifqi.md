@@ -7,9 +7,9 @@ Mempersiapkan server Ubuntu 22.04.5 LTS agar aman, efisien, dan siap digunakan u
 ## 🖥️ Informasi Server
 | Keterangan     | Detail              |
 |----------------|---------------------|
-| Hostname       | `ubuntu-server-01`  |
+| Hostname       | `student`  |
 | OS             | Ubuntu 22.04.5 LTS  |
-| IP Address     | `192.168.x.x`       |
+| IP Address     | `172.30.116.200`       |
 | Akses awal     | via SSH (default port 22) |
 | Akses baru     | via SSH port `2222` |
 
