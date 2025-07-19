@@ -95,6 +95,10 @@ cat ~/.ssh/id_rsa.pub
      chmod 700 ~/.ssh/
      chmod 600 ~/.ssh/authorized_keys
      ```
+- Coba Login Ulang
+  ```bash
+  ssh -p 2222 username@ip-address
+  ```
 ### Disable Login dengan Password (Optional)
 Setelah SSH Key aktif, login via password bisa dinonaktifkan untuk keamanan tambahan:
 
