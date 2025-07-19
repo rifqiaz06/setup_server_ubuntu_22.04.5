@@ -75,3 +75,39 @@ Cek:
 ```
 http://192.168.x.x:80
 ```
+
+### 🔹 6. Konfigurasi SSH Key
+- Generate SSH Key
+```bash
+ssh-keygen
+```
+- Salin isi file `id_rsa.pub`
+```bash
+cat ~/.ssh/id_rsa.pub
+```
+- Kirim ke server
+  1. Login ke server via password
+  2. Tambahkan ke:
+     ```bash
+     sudo nano ~/.ssh/authorized_keys
+     ```
+     ```bash
+     chmod 700 ~/.ssh/
+     chmod 600 ~/.ssh/authorized_keys
+     ```
+### Disable Login dengan Password (Optional)
+Setelah SSH Key aktif, login via password bisa dinonaktifkan untuk keamanan tambahan:
+
+```bash
+sudo nano /etc/ssh/sshd_config
+```
+
+Ubah atau tambahkan:
+```
+PasswordAuthentication no
+```
+
+Lalu restart SSH:
+```bash
+sudo systemctl restart sshd
+```
