@@ -50,5 +50,3 @@ LinkedIn: https://www.linkedin.com/in/rifqi-akhmad-zakaria-485201262/
 > Kalau ada saran, pertanyaan, atau mau kolaborasi, feel free to reach out!
 
 ---
-
-📄 Lisensi: MIT
