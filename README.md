@@ -1,4 +1,3 @@
-
 # 🚀 Setup Awal Server Ubuntu 22.04.5 (VM/VPS)
 
 Dokumentasi langkah-langkah dasar untuk melakukan setup awal server Ubuntu 22.04.5 agar siap digunakan untuk kebutuhan deployment, automation, dan lingkungan DevOps secara umum.
@@ -6,6 +5,7 @@ Dokumentasi langkah-langkah dasar untuk melakukan setup awal server Ubuntu 22.04
 ## 📋 Isi Dokumen
 
 Dokumen ini mencakup:
+
 - Update sistem dan keamanan
 - Konfigurasi user non-root
 - Pengaturan firewall (UFW)
@@ -24,6 +24,7 @@ Dokumen ini mencakup:
 ## 🧠 Kenapa Penting?
 
 Langkah awal provisioning server sering dianggap sepele, padahal krusial untuk:
+
 - Menghindari akses tidak sah (security)
 - Memastikan server siap pakai (stability)
 - Menyiapkan lingkungan kerja yang efisien (productivity)
@@ -42,8 +43,12 @@ Silakan fork/repo/share jika ingin berkontribusi atau belajar bareng 🙌
 
 ## 🔗 Kontak
 
+Gmail: rifqiakhmadzakaria@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/rifqi-akhmad-zakaria-485201262/
+
 > Kalau ada saran, pertanyaan, atau mau kolaborasi, feel free to reach out!
 
 ---
 
-📄 Lisensi: MIT  
+📄 Lisensi: MIT
