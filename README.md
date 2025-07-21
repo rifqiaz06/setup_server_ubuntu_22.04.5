@@ -41,12 +41,4 @@ Langkah awal provisioning server sering dianggap sepele, padahal krusial untuk:
 Dokumentasi ini dibuat oleh **Rifqi**, sebagai bagian dari latihan dan portofolio pribadi di bidang DevOps.  
 Silakan fork/repo/share jika ingin berkontribusi atau belajar bareng 🙌
 
-## 🔗 Kontak
-
-Gmail: rifqiakhmadzakaria@gmail.com
-
-LinkedIn: https://www.linkedin.com/in/rifqi-akhmad-zakaria-485201262/
-
-> Kalau ada saran, pertanyaan, atau mau kolaborasi, feel free to reach out!
-
 ---
